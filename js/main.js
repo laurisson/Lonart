@@ -36,13 +36,13 @@ function menuShow() {
    ul.classList.remove('open')
    document.querySelector('main') .style.opacity = '1'
    document.querySelector('main').style.display ='block'
-   document.querySelector('footer') .style.opacity = '1';
+   document.querySelector('footer') .style.display = 'block';
   
  }else{
    ul.classList.add('open');
    document.querySelector('main').style.opacity = '0'
    document.querySelector('main').style.display =' none' 
-   document.querySelector('footer') .style.opacity = '0'    
+   document.querySelector('footer') .style.display = 'none'    
  }
 };
 
