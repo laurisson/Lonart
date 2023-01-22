@@ -1,0 +1,45 @@
+footer{
+  width: 99.9%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $cor-header;
+  gap: 2rem;
+  margin-top: 2rem;
+
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .header-rede{
+      h4{
+        font-size: 1.5rem;
+      }
+    }
+
+
+    .rede-sociais{
+      margin-top: 1.5rem;
+      .sociais{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 1.5rem;
+        font-size: 1.5rem;
+        
+      }
+    }
+    .footer-copy{
+      margin-top:2rem ;
+      background-color: $cor-container;
+      width: 99vw;
+      display: flex;
+      justify-content: center;
+      font-size: 1.2rem;
+    }
+
+  }
+}

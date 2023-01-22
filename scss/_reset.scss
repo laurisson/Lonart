@@ -1,0 +1,52 @@
+// variaveis
+$cor-header:rgba(5,112, 166, 0.994);
+$cor-body:rgba(66, 113, 173, 0.45);
+$cor-branco:#fff;
+$cor-black:#000;
+$cor-container:#eeeee75e;
+$cor-rox:rgb(129, 133,135,0.45) ;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:$cor-body ;
+}
+
+section{ .container{
+  background-color:$cor-container ;
+}}
+
+
+main{
+  height: 100%;
+  margin: 10px;
+}
+
+button{
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+html{
+  font-size: 62,5%;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  &:hover{
+    color: white;
+  }
+  
+}
+
